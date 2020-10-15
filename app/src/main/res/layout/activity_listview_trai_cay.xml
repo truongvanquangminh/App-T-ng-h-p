@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listviewTraiCay"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listviewTraicay"
+        android:layout_width="409dp"
+        android:layout_height="600dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/btprofile"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="600dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_arrow_forward_24"/>
+</RelativeLayout>
